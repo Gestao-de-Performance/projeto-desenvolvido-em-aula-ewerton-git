@@ -47,17 +47,17 @@ footer{
 }
 
 /*cabeçalho*/
-.menunavegacao{
+.menuNavegacao{
     list-style-type: none;
     display: flex;
-    justify-content: space-between;
     flex-direction: row;
-    align-content: center;
     flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
-.inputHeader, .imputHeader::placeholder, .imputHeader::focus{
+.inputHeader, .inputHeader::placeholder, .inputHeader::focus{
     border: none;
     outline: none;
     color: var(--roxo-300);
@@ -69,7 +69,7 @@ footer{
     justify-content: center;
     border: 1px solid var(--roxo-300);
     opacity: 0.40;
-    padding: 01875rem 0.8125rem;
+    padding: 0.1875rem 0.8125rem;
 }
 /*fim do cabeçalho*/
 
@@ -110,6 +110,7 @@ footer{
 }
 /*Fim Título*/
 
+
 /*Carrossel de Cursos*/
 .displayCarrossel {
     display: flex;
@@ -146,7 +147,7 @@ footer{
     width: 100%;
     gap: 40px;
     background-color: #ffffff5c;
-    margin: 5% 0 100%;
+    margin: 5% 0 10%;
 }
 
 .containerBotoes{
@@ -200,9 +201,11 @@ footer{
 
 /*Fim Carrossel de Cursos*/
 
+
+
 /*BLog*/
 
-.contaienerPostBlog{
+.containerPostBlog{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -219,6 +222,7 @@ footer{
     box-shadow: 0 5px 10px rgba(0,0,0,0.2);
     max-width: 340px;
     transition: transform 0.5s, box-shadow 0.5s;
+    margin: 13.2px;
 }
 
 .containerBotao:hover{

@@ -8,25 +8,29 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
-    <title>Unintese</title>
+    <link rel="icon" href="img/icone_pagina.ico" type="image/x-icon">
+    <title>Faculdade Digital</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="corpo">
     <header>
         <nav>
-            <ul class="menunavegacao">
+            <ul class="menuNavegacao">
                 <li><a href="#"><img src="img/logo.png"></a></li>
                 <li><a href="#">Graduaçao</a></li>
                 <li><a href="#">Blog</a></li>
-                <li class="campoPesquisa"><input class="inputHeader" placeholder="Buscar"><a href="#"><img src="img/lupa.svg"></a></li>
+                <li class="campoPesquisa"><input class="inputHeader" placeholder="Buscar"><a href="#"><img width="15px" src="img/lupa.svg" alt="Lupa"></a></li>
                 <li><a href="#"><img src="img/cadeado.svg">Ambiente Virtual</a></li>
             </ul>
         </nav>
     </header>
+
+
     <main>
-        <section>
+        <section class="tamanhoSecao">
             <h1>Nós somos uma <b>faculdade digital</b></h1>
-            <div class="posicaoSubtitulo">
+            <div class="posicaoSubTitulo">
                 <span class="subTitulo">Você, preparado para <b>o futuro.</b></span>
                 <img id="setaBaixo" class="animacaoSeta" width="35px" height="200px" src="img/seta-amarela.png" alt="seta amarela apontando para baixo">
                 <div class="tamanhoTexto">
@@ -53,7 +57,7 @@
                         <div class="containerSoftSkills">
                             <div class="containerSkills">
                                 <div>
-                                    <span class="letraBranca textSkills">Ciratividade</span>
+                                    <span class="letraBranca textoSkills">Ciratividade</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -64,7 +68,7 @@
                                 </div>
                                 
                                 <div>
-                                    <span class="letraBranca textSkills">Liderança</span>
+                                    <span class="letraBranca textoSkills">Liderança</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -75,7 +79,7 @@
                                 </div>
 
                                 <div>
-                                    <span class="letraBranca textSkills">Gerenciamento de Tempo</span>
+                                    <span class="letraBranca textoSkills">Gerenciamento de Tempo</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -84,9 +88,11 @@
                                         <img class="tamanhoEstrela" src="img/estrela-vazia.png">
                                     </div>
                                 </div>
+                            </div>
 
+                            <div class="containerSkills">
                                 <div>
-                                    <span class="letraBranca textSkills">Inovação</span>
+                                    <span class="letraBranca textoSkills">Inovação</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -95,9 +101,9 @@
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                     </div>
                                 </div>
-
+                               
                                 <div>
-                                    <span class="letraBranca textSkills">Comunicação</span>
+                                    <span class="letraBranca textoSkills">Comunicação</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -108,7 +114,7 @@
                                 </div>
 
                                 <div>
-                                    <span class="letraBranca textSkills">Habilidade Interpessoal</span>
+                                    <span class="letraBranca textoSkills">Habilidade Interpessoal</span>
                                     <div class="containerNivelSkills">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
                                         <img class="tamanhoEstrela" src="img/estrela-cheia.png">
@@ -127,6 +133,14 @@
         
         <section class="tamanhoSecao">
             <h2 style="font-weight: 500;">Cursos <b>livres e gratuitos</b> para você</h2>
+            <div style="margin-top: 2%; display: flex; gap:10px;">
+                <a href="#"><img width="340px" height="425px" src="img/lideranca.jpg"></a>
+                <a href="#"><img width="340px" height="425px" src="img/cargos-e-salarios.jpg"></a>
+            </div>
+        </section>  
+
+        <section class="tamanhoSecao">
+            <h2 style="font-weight: 500;">Mias recentes em nosso <b style="color: #8e35ff;">Blog</b></h2>
             <div class="containerPostBlog">
                 <a class="containerBotao" href="#">
                     <img src="img/post_1.png">
@@ -155,12 +169,13 @@
                         <div class="ContainerInformacoesPost">
                             <i class="corTexto">Entretedimento</i>
                             <span>3 minutos de leitura</span>
-                        </div>
+                        </div>    
                     </div>
                 </a>
             </div>
         </section>
     </main>
+
     <footer>
         <div>
             <div>
